@@ -19,7 +19,7 @@
         display: flex;
         justify-content: center;
         border-bottom: 2px solid black;
-        margin-bottom: 2px;
+        margin-bottom: 5px;
         margin-top: 5px;
     }
         
@@ -60,7 +60,7 @@
         margin-left: 100px;
         margin-right: 100px;
         position: absolute;
-        top: 110px;
+        top: 120px;
         display: flex;
         justify-content: space-between;
     }
@@ -87,6 +87,40 @@
         margin-top: 14px;
     }
 
+    .marco {
+        position: absolute;
+        top: 30%;
+        left: 36%;
+        right: 36%;
+        background-color: #d4d4d4;
+        padding: 25px;
+        border-radius: 15%;
+        text-align: center;
+    }
+
+    .formulario {
+        margin: 10px;
+    }
+
+    #usuario {
+        margin: 5px;
+    }
+
+    #contraseña {
+        margin: 5px;
+    }
+
+    #enviar {
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    #enviar:hover {
+        cursor: pointer;
+        width: 70%;
+        background-color: rgb(116, 116, 116);
+        color: #fff;
+    }
 }
 
 

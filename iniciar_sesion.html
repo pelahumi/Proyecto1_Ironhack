@@ -9,9 +9,7 @@
     </head>
 
     <body>
-
         <div class="grupo">
-
             <div class="menu">
                 <header>
                     <h1 id="titulo">Mi página web</h1>
@@ -26,34 +24,28 @@
         
                         <nav class="dcha">
                             <ul>
-                                <li><a href="registrarse.html">Registrarse</a></li>
-                                <li><a href="iniciar_sesion.html">Iniciar sesión</a></li>
+                                <li><a href="">Registrarse</a></li>
+                                <li><a href="">Iniciar sesión</a></li>
                             </ul>
                         </nav>
-                    </div> 
+                    </div>
                 </header>
             </div>
 
-            <section class="main-content">
-                <div class="p1">
-                    <img src="img/board1.png" alt="board1" class="image">
-                    <article id="board1">
-                        <span>SDJGSDHOIF</span>
-                    </article>
-                    <footer>
-                        <p>Precio: 290,00€</p>
-                    </footer>
-                </div>
+            <div class="marco">
+                <h2>Iniciar sesión</h2>
+                <section class="formulario">
+                        <form method="POST">
+                            <label for="email">Usuario:</label>
+                            <input type="email" name="usuario" id="usuario">
 
-                <div class="p2">
-                    <img src="img/board2.png" alt="board2" class="image">
-                    <article>
-                        <p>Nombre del producto</p>
-                    </article>
-                </div>
+                            <label for="password">Contraseña:</label>
+                            <input type="password" name="contraseña" id="contraseña">
 
-                
-            </section>
+                            <input type="button" value="Iniciar sesión" id="enviar">
+                        </form>
+                </section>
+            </div>
 
         </div>
     </body>
