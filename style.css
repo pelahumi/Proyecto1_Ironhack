@@ -68,23 +68,41 @@
     .p1 {
         display: inline-block;
         width: 45%;
+        height: 35%;
     }
 
     .image {
         width: 85%;
-        border: 1px solid black;
+        height: 72%;
+        padding-left: 7%;
     }
 
     .p2 {
         display: inline-block;
         width: 45%;
         margin-left: 0px;
+        height: 35%;
     }
 
-    #board1 {
+    .board {
         display: flex;
         justify-content: center;
-        margin-top: 14px;
+    }
+
+    .p1:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .p2:hover {
+        cursor: pointer;
+        border: 1px solid black;
+    }
+
+    .price {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
     }
 
     .marco {
@@ -93,35 +111,113 @@
         left: 36%;
         right: 36%;
         background-color: #d4d4d4;
-        padding: 25px;
+        padding: 4%;
         border-radius: 15%;
         text-align: center;
+        height: 20%;
     }
 
     .formulario {
-        margin: 10px;
+        margin: 5%;
     }
 
-    #usuario {
-        margin: 5px;
+    .email {
+        margin: 3%;
     }
 
-    #contraseña {
-        margin: 5px;
+    .contraseña {
+        margin: 3%;
     }
 
-    #enviar {
+    .enviar {
         margin-top: 5px;
         font-size: 14px;
     }
 
-    #enviar:hover {
+    .enviar:hover {
         cursor: pointer;
-        width: 70%;
         background-color: rgb(116, 116, 116);
         color: #fff;
     }
+
+    .marco2 {
+        position: absolute;
+        top: 25%;
+        left: 32%;
+        background-color: #d4d4d4;
+        padding: 5%;
+        border-radius: 15%;
+        text-align: center;
+        width: 30%;
+        height: 40%;
+    }
+
+    .nombre {
+        margin: 3%;
+    }
+
+    .apellidos {
+        margin: 3%;
+    }
+
+    .telefono {
+        margin: 3%;
+    }
+
+    .formulario {
+        display: flex;
+        justify-content: center;
+    }
+
+    #email {
+        margin: 3%;
+    }
+    
+    .fondo {
+        position: absolute;
+        top: 17%;
+    }
+
+    .img_fondo {
+        width: 100%;
+        height: 100%;
+    }
+
+    #pie_pagina {
+        display: flex;
+        justify-content: center;
+        padding: 2%;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    #pie_pagina ul {
+        list-style: none;
+    }
+
+    #pie_pagina ul li {
+        float: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #pie_pagina ul li a {
+        text-decoration: none;
+        color: #d4d4d4;
+        display: block;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #pie_pagina ul li a:hover{
+        color: rgb(243, 189, 114);
+    }
+
+    .pie {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }
+
 
 
 

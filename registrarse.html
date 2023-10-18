@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Proyecto1</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+
+    <body>
+        <div class="grupo">
+            <div class="menu">
+                <header>
+                    <h1 id="titulo">Mi página web</h1>
+
+                    <div class="navbar">
+                        <nav class="izda">
+                            <ul>
+                                <li><a href="index.html">Menú</a></li>
+                                <li><a href="productos.html">Productos</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </header>
+            </div>
+
+            <div class="marco2">
+                <h2>Registrarse</h2>
+                <section class="formulario">
+                        <form method="POST" class="form">
+                            <label for="text">Nombre:</label>
+                            <input type="text" name="nombre" class="nombre">
+
+                            <label for="text">Apellidos:</label>
+                            <input type="text" name="apellidos" class="apellidos">
+
+                            <label for="email">Correo electrónico:</label>
+                            <input type="email" name="email" class="email" id="email">
+
+                            <label for="number">Teléfono:</label>
+                            <select name="prefijo">
+                                <option value="españa">+34</option>
+                                <option value="eeuu">+14</option>
+                            </select>
+                            <input type="text">
+
+                            <label for="password">Contraseña:</label>
+                            <input type="password" name="contraseña" class="contraseña">
+
+                            <input type="button" value="Iniciar sesión" class="enviar">
+                        </form>
+                </section>
+            </div>
+
+        </div>
+    </body>
+</html>
