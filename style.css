@@ -9,7 +9,7 @@
     }
 
     .menu {
-        position:fixed;
+        position: fixed;
     }
 
     #titulo {
@@ -294,7 +294,7 @@
     }
 
     .pie {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
     }
