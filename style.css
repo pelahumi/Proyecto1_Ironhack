@@ -303,7 +303,7 @@
         position: absolute;
         top: 100%;
         background-color: rgba(0, 0, 0, 0.7);
-        width: 100%;
+        width: 94%;
         padding: 3%;
         height: 40%;
         
@@ -586,6 +586,7 @@
     
     .img_fondo {
         width: 100%;
+        height: 100%;
     }
     
     .img_fondo2 {
@@ -628,12 +629,12 @@
     }
     
     .descripcion {
-        position: inherit;
-        top: 143.5%;
+        position: absolute;
+        top: 115%;
         background-color: rgba(0, 0, 0, 0.7);
-        width: 100%;
-        padding: 5%;
-        height: 30%;
+        width: 98%;
+        padding: 1%;
+        height: 35%;
         
     }
     
@@ -643,14 +644,16 @@
     
     .cabeza {
         display: inline-block;
-        width: 20%;
+        width: 30%;
         font-size:xx-large;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     
     .cuerpo {
         display: inline-block;
-        width: 70%;
+        width: 67%;
         font-size: 18px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
      
 }
