@@ -322,6 +322,26 @@
         width: 70%;
         font-size: 16px;
     }
+
+    .gracias {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        width: 50%;
+        height: 30%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gracias {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 }
 
 
@@ -655,5 +675,26 @@
         font-size: 18px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
+    .gracias {
+        background-color: rgba(0, 0, 0, 0.7);
+        position: absolute;
+        top: 35%;
+        left: 25%;
+        width: 50%;
+        height: 30%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #gracias {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: x-large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
      
 }
